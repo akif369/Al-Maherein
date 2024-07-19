@@ -1,36 +1,73 @@
 import React from "react";
+import SlicedButton from "../components/SlicedButton";
 
 function Home() {
   return (
-    <section id="main" className="bg-cover bg-center h-screen" style={{ background:`url("/img/bg-1.png")`}}>
-      <nav className="flex items-center  p-6 list-none gap-12 justify-center sm:mr-16">
-        <h1 className=" font-bold text-white font-della text-2xl ">AL MAHEREIN DUBAI’S FINEST TAILORS</h1>
-          <li>
-            <a className="text-white hover:text-gray-300  transition-all duration-150" href="/#">ABOUT</a>
-          </li>
-          <li>
-            <img src="/logo/almeh.svg" alt="al-meh" width={100} height={100} />
-          </li>
-          <li>
-            <a className="text-white hover:text-gray-300 transition-all duration-150" href="/#">SERVICES</a>
-          </li>
-          <li>
-            <a className="text-white hover:text-gray-300 transition-all duration-150" href="/#">PORTFOLIO</a>
-          </li>
-          <li>
-            <a className="text-white hover:text-gray-300 transition-all duration-150" href="/#">BOOK NOW</a>
-          </li>
-          <li>
-            <a className="text-white hover:text-gray-300 transition-all duration-150" href="/#">CONTACT</a>
-          </li>
+    <section
+      id="main"
+      className="bg-cover h-screen "
+      style={{ background: `url("/img/bg-1.png")`,backgroundRepeat:"no-repeat", backgroundSize:"cover"}}
+    >
+      <nav className="flex items-center  p-6 justify-center ">
+        <h1 className=" font-bold text-[#584624] font-della text-2xl ">
+          AL MAHEREIN DUBAI’S FINEST TAILORS
+        </h1>
+        <ul className="max-sm:hidden flex gap-12 items-center ml-12 list-none">
+        <li>
+          <a
+            className="text-black  transition-all duration-150"
+            href="/#"
+          >
+            ABOUT
+          </a>
+        </li>
+        <li>
+          <img src="/logo/almeh.svg" alt="al-meh" style={{mixBlendMode:"multiply"}} width={100} height={100} />
+        </li>
+        <li>
+          <a
+            className="text-black  transition-all duration-150"
+            href="/#"
+          >
+            SERVICES
+          </a>
+        </li>
+        <li>
+          <a
+            className="text-black  transition-all duration-150"
+            href="/#"
+          >
+            PORTFOLIO
+          </a>
+        </li>
+        <li>
+          <a
+            className="text-black  transition-all duration-150"
+            href="/#"
+          >
+            BOOK NOW
+          </a>
+        </li>
+        <li>
+          <a
+            className="text-black  transition-all duration-150"
+            href="/#"
+          >
+            CONTACT
+          </a>
+        </li>
+        </ul>
       </nav>
 
-      <div className="text-center p-6">
-        <h2 className="text-2xl text-white">Sewing with Heart,</h2>
-        <h1 className="text-5xl font-bold text-white mt-4">We are AL-MAHEREIN, Bringing Your Style to Life.</h1>
-        <a href="/#" className="inline-block mt-6 px-8 py-3 bg-white text-black font-bold rounded-lg shadow-lg hover:bg-gray-200">
-          LET'S TALK NOW
-        </a>
+      <div className="text-center p-6 h-full my-32 ">
+        <h2 className="text-2xl text-black font-della">Sewing with Heart,</h2>
+        <h1 className="text-5xl font-bold font-redRose text-black mt-4">
+          We are AL-MAHEREIN, Bringing Your Style to Life.
+        </h1>
+
+        <div className="relative h-full w-full grid my-7">
+          <SlicedButton />
+        </div>
       </div>
     </section>
   );

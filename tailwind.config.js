@@ -10,6 +10,7 @@ module.exports = {
           della: ['Della Respira', 'serif'],
           redRose: ['Red Rose', 'cursive'],
           montserrat: ['Montserrat', 'sans-serif'],
+          robo: ['Roboto', 'sans-serif'],
         },
       },
     },
