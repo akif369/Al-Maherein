@@ -7,7 +7,7 @@ function Card({ url, heading, detail }) {
         loading="lazy"
         src={url}
         alt="card"
-        className="w-full aspect-[1.43] object-cover"
+        className="w-full aspect-[1.43] rounded-t-sm object-cover"
       />
       <div className="flex flex-col flex-grow px-8 mt-3.5 w-full">
         <div className="text-base text-zinc-900 text-pretty">{heading}</div>
