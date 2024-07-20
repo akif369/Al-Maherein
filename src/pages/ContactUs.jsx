@@ -3,7 +3,7 @@ import React from "react";
 function ContactUs() {
   return (
     <section id="contact">
-      <div className="my-7 mt-24 font-montserrat text-center grid justify-center w-full ">
+      <div className="my-7 sm:mt-24 font-montserrat text-center grid justify-center w-full ">
         <h1 className="text-4xl">Book Your Appointment</h1>
         <p className="font-light my-2 text-gray-700 text-[12px] w-2/3 mx-auto">
           Call us now or enter your contact information and a message and we
