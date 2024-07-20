@@ -11,16 +11,16 @@ function Footer() {
           <h1 className="text-[16px] font-bold">About</h1>
           <ul className="grid gap-2 mt-3">
             <li>
-              <a href="/#">About</a>
+              <a href="/#about">About</a>
             </li>
             <li>
-              <a href="/#">Services</a>
+              <a  href="/#service">Services</a>
             </li>
             <li>
               <a href="/#">Blog</a>
             </li>
             <li>
-              <a href="/#">contact</a>
+              <a href="/#contact">contact</a>
             </li>
           </ul>
         </div>
@@ -38,7 +38,7 @@ function Footer() {
               <a href="/#">Disclaimer</a>
             </li>
             <li>
-              <a href="/#">Book Appointment</a>
+              <a href="/#booknow">Book Appointment</a>
             </li>
           </ul>
         </div>
@@ -54,7 +54,7 @@ function Footer() {
               placeholder="Your mail here"
               className="bg-[#FEFFD2] text-gray-500 py-2 pl-3 pr-1 w-full  focus:outline-none flex-grow"
             />
-            <button className="bg-[#D68933] p-3 flex items-center  justify-center">
+            <button  onClick={()=>{alert("Thank you Shopping with US. AL MAHEREIN!")}} className="bg-[#D68933] p-3 flex items-center  justify-center">
               <img src="/icon/search.svg" alt="search" width={15} height={15} />
             </button>
           </div>

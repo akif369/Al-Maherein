@@ -13,7 +13,7 @@ function OtherStores() {
 
       <a
         className="bg-[#25D366] text-white inline-flex p-5 gap-1 py-2 sm:text-xl  rounded-md hover:brightness-105 transition-all"
-        href="/#"
+        href="https://wa.me/97148928296"
       >
         <img className="sm:w-7 sm:h-7" src="/icon/whatsapp.svg" alt="wh"></img>Whatsapp
       </a>
