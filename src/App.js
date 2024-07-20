@@ -18,13 +18,13 @@ function App() {
       <Booknow />
       <AboutUs />
 
-      {/* <Client /> */}
+      <Client />
 
-      {/* <ContactUs /> */}
+      <ContactUs />
 
-      {/* <OtherStores /> */}
+      <OtherStores />
 
-      {/* <Footer /> */}
+      <Footer />
     </main>
   );
 }

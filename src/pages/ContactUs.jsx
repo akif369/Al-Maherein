@@ -16,7 +16,7 @@ function ContactUs() {
             <img  className="mb-auto"src="/icon/email.svg"  width={60} height={60}alt="email" />
             <div>
               <h1 className="text-[22px]">Email</h1>
-              <p className="text-sm text-gray-800">info@example.com</p>
+              <p className="text-sm text-gray-800">almahereinmtllc@gmail.com</p>
             </div>
           </div>
 
@@ -24,7 +24,7 @@ function ContactUs() {
             <img  className="mb-auto" src="/icon/phone.svg" width={60} height={60} alt="phone" />
             <div>
               <h1 className="text-[22px]">Phone</h1>
-              <p className="text-sm text-gray-800">+971 1 234 5678</p>
+              <p className="text-sm text-gray-800">+971 4 892 8296</p>
             </div>
           </div>
 
@@ -32,7 +32,7 @@ function ContactUs() {
             <img className="mb-auto" src="/icon/Address.svg"  width={60} height={60} alt="Address" />
             <div>
               <h1 className="text-[22px]">Address</h1>
-              <p className="text-sm text-gray-800 sm:max-w-36">Al Tawr Street, XV B, Business Bay, Dubai (UAE)</p>
+              <p className="text-sm text-gray-800 sm:max-w-36">Al Ittihad Rd,<span className="text-nowrap"> 36 28th ST</span>, Deira, Dubai (UAE)</p>
             </div>
           </div>
         </div>

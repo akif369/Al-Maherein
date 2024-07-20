@@ -3,9 +3,10 @@ import React from "react";
 function Footer() {
   return (
     <div className="bg-[#2B2525] font-robo">
-      <div className="flex text-[13px] list-none gap-20 pt-8 pb-16 text-white">
-        <h1 className="font-della text-4xl m-20 my-auto">AL MAHEREIN</h1>
+      <div className="md:flex text-[13px] list-none gap-20 py-4 pt-2 md:pt-8 text-white px-2">
+        <h1 className="font-della text-lg  md:text-4xl md:m-16 my-auto text-nowrap px-4 py-3">AL MAHEREIN</h1>
 
+<div className="flex w-full md:gap-16   max-md:justify-between">
         <div className="font-light ">
           <h1 className="text-[16px] font-bold">About</h1>
           <ul className="grid gap-2 mt-3">
@@ -41,7 +42,6 @@ function Footer() {
             </li>
           </ul>
         </div>
-
         <div className="w-48">
           <h1 className="font-bold text-[16px]">Subscribe Now</h1>
           <p className=" font-montserrat font-light text-[10px] my-2">
@@ -59,6 +59,9 @@ function Footer() {
             </button>
           </div>
         </div>
+        </div>
+
+       
 
         <div></div>
       </div>
