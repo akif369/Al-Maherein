@@ -15,16 +15,16 @@ function App() {
       <Home />
 
       <Service />
+      <Booknow />
       <AboutUs />
 
-      <Client />
-      <Booknow />
+      {/* <Client /> */}
 
-      <ContactUs />
+      {/* <ContactUs /> */}
 
-      <OtherStores />
+      {/* <OtherStores /> */}
 
-      <Footer />
+      {/* <Footer /> */}
     </main>
   );
 }

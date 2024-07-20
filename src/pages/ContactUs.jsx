@@ -11,7 +11,7 @@ function ContactUs() {
           (Except Friday & Sunday)
         </p>
 
-        <div className="text-left flex justify-between mx-7 my-11 font-medium ">
+        <div className="text-left flex justify-between mx-7 my-11 font-medium flex-wrap gap-y-10 ">
           <div className="flex gap-[10px] ">
             <img  className="mb-auto"src="/icon/email.svg"  width={60} height={60}alt="email" />
             <div>
@@ -32,7 +32,7 @@ function ContactUs() {
             <img className="mb-auto" src="/icon/Address.svg"  width={60} height={60} alt="Address" />
             <div>
               <h1 className="text-[22px]">Address</h1>
-              <p className="text-sm text-gray-800 w-36">Al Tawr Street, XV B, Business Bay, Dubai (UAE)</p>
+              <p className="text-sm text-gray-800 sm:max-w-36">Al Tawr Street, XV B, Business Bay, Dubai (UAE)</p>
             </div>
           </div>
         </div>
