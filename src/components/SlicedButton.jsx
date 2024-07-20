@@ -3,25 +3,28 @@ import './SlicedButton.css';
 
 const SlicedButton = () => {
   const [isScrolling, setIsScrolling] = useState(false);
+  const [isDisabled, setIsDisabled] = useState(false);
 
   const smoothScroll = (targetId) => {
-    if (isScrolling) return;
+    if (isScrolling || isDisabled) return;
 
     setIsScrolling(true);
-    const button = document.querySelector('.btn');
+    setIsDisabled(true);
     setTimeout(() => {
       document.getElementById(targetId).scrollIntoView({
         behavior: 'smooth',
       });
       setIsScrolling(false);
-      button.blur(); // Remove focus from the button
+      setIsDisabled(false);
     }, 1000); // 1 second delay
+
+   
   };
 
   return (
     <div onClick={() => smoothScroll('contact')} className='container'>
       <div className="center">
-        <button className="btn">
+        <button className={`btn  ${isDisabled&& ""} duration-700`} disabled={isDisabled}>
           <svg width="180px" height="60px" viewBox="0 0 180 60" className="border">
             <polyline points="179,1 179,59 1,59 1,1 179,1" className="bg-line" />
             <polyline points="179,1 179,59 1,59 1,1 179,1" className="hl-line" />
