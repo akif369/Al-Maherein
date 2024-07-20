@@ -14,7 +14,7 @@ function Home() {
     <section id="main" className="bg-cover h-screen relative overflow-hidden">
       <video
         ref={videoRef}
-        className="absolute top-0 left-0 w-full h-full object-cover -z-10"
+        className="absolute top-0 left-0 w-full h-full object-cover -z-10 contrast-"
         autoPlay
         muted
         loop

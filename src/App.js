@@ -7,6 +7,7 @@ import OtherStores from "./pages/OtherStores";
 import ContactUs from "./pages/ContactUs";
 import Client from "./pages/Client";
 import Booknow from "./pages/Booknow";
+import AboutUs from "./pages/AboutUs";
 
 function App() {
   return (
@@ -14,10 +15,10 @@ function App() {
       <Home />
 
       <Service />
+      <AboutUs />
 
-      <Booknow/>
-
-      <Client/>
+      <Client />
+      <Booknow />
 
       <ContactUs />
 
