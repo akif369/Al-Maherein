@@ -16,7 +16,7 @@ function Card({ url, heading, detail }) {
           <br />
         </div>
         <div className="mt-11 text-amber-500 leading-[150%]">
-          <a href="/#">Book Now</a>
+          <a href="/#booknow">Book Now</a>
         </div>
       </div>
     </div>

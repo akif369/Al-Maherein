@@ -99,18 +99,19 @@ function Service() {
           that exudes confidence`}
         />
         <Card
-          url={"/img/card1.png"}
-          heading={`Men' asdf freeks Suits and Trousers`}
-          detail={` Crafted with precision and tailored to perfection, our men's suits and
-          trousers epitomize sophistsa dfasd fasd fasdf asdf asdf asdf asdf ication and style, ensuring a flawless fit
-          that exudes confidence`}
+          url={"/img/card2.png"}
+          heading={`Shirts Alteration`}
+          detail={`From intricate adjustments to comprehensive alterations, our skilled artisans transform ordinary shirts into personalized masterpieces, tailored to the unique preferences of our clientele.`}
         />
         <Card
-          url={"/img/card1.png"}
-          heading={`Men's Suits and Trousers`}
-          detail={` Crafted with precision and tailored to perfection, our men's suits and
-          trousers epitomize sophistication and style, ensuring a flawless fit
-          that exudes confidence`}
+          url={"/img/card3.png"}
+          heading={`Children's Party Wear`}
+          detail={` Our children's party wear collection features playful and elegant designs, ensuring your little ones look adorable and feel comfortable for any special occasion.`}
+        />
+        <Card
+          url={"/img/card4.png"}
+          heading={`Formal Clothing Alteration`}
+          detail={`Our formal clothing alteration service ensures that every piece fits perfectly, offering meticulous adjustments for a flawless and professional appearance.`}
         />
       </Carousel>
     </section>
