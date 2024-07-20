@@ -28,7 +28,7 @@ function ContactUs() {
             </div>
           </div>
 
-          <div className="flex gap-[10px] self-start">
+          <div  className="flex gap-[10px] self-start">
             <img className="mb-auto" src="/icon/address.svg"  width={60} height={60} alt="Address" />
             <div>
               <h1 className="text-[22px]">Address</h1>

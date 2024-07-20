@@ -6,7 +6,7 @@ function Footer() {
       <div className="md:flex text-[13px] list-none gap-20 py-4 pt-2 md:pt-8 text-white px-2">
         <h1 className="font-della text-lg  md:text-4xl md:m-16 my-auto text-nowrap px-4 py-3">AL MAHEREIN</h1>
 
-<div className="flex w-full md:gap-16   max-md:justify-between">
+<div className="flex w-full md:gap-16  max-md:justify-between">
         <div className="font-light ">
           <h1 className="text-[16px] font-bold">About</h1>
           <ul className="grid gap-2 mt-3">

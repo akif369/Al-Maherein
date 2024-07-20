@@ -37,18 +37,21 @@ function Home() {
         <h1 className="font-bold text-[#584624] font-della text-2xl max-lg:hidden">
           AL MAHEREIN DUBAI’S FINEST TAILORS
         </h1>
-       <div className="max-sm:hidden lg:hidden ">
-       <img
-              src="/logo/almeh.svg"
-              alt="al-meh"
-              style={{ mixBlendMode: "multiply" }}
-              width={100}
-              height={100}
-            />
-       </div>
+        <div className="max-sm:hidden lg:hidden ">
+          <img
+            src="/logo/almeh.svg"
+            alt="al-meh"
+            style={{ mixBlendMode: "multiply" }}
+            width={100}
+            height={100}
+          />
+        </div>
         <ul className="max-sm:hidden flex gap-6 lg:gap-12 items-center ml-12 list-none">
           <li>
-            <a className="text-black transition-all duration-150" href="/#">
+            <a
+              className="text-black transition-all duration-150"
+              href="/#about"
+            >
               ABOUT
             </a>
           </li>
@@ -62,7 +65,10 @@ function Home() {
             />
           </li>
           <li>
-            <a className="text-black transition-all duration-150" href="/#">
+            <a
+              className="text-black transition-all duration-150"
+              href="/#service"
+            >
               SERVICES
             </a>
           </li>
@@ -72,12 +78,18 @@ function Home() {
             </a>
           </li>
           <li>
-            <a className="text-black transition-all duration-150 text-nowrap" href="/#">
+            <a
+              className="text-black transition-all duration-150 text-nowrap"
+              href="/#booknow"
+            >
               BOOK NOW
             </a>
           </li>
           <li>
-            <a className="text-black transition-all duration-150" href="/#">
+            <a
+              className="text-black transition-all duration-150"
+              href="/#contact"
+            >
               CONTACT
             </a>
           </li>
@@ -101,7 +113,7 @@ function Home() {
         </div>
         <div className="flex">
           <a
-            href="/#"
+            href="/#booknow"
             className="font-medium my-auto p-1 px-2 text-sm text-white bg-[#F6D093] rounded-lg border-[#FFBF78] border hover:brightness-105 transition-all"
           >
             Book Now
@@ -124,32 +136,30 @@ function Home() {
           isMenuOpen ? "translate-x-0" : "-translate-x-full"
         } transition-transform duration-300 ease-in-out`}
       >
-        <button  className="absolute right-5 top-6" onClick={toggleMenu}>
-          <img src="/icon/close.svg" alt="x"/>
+        <button className="absolute right-5 top-6" onClick={toggleMenu}>
+          <img src="/icon/close.svg" alt="x" />
         </button>
         <ul className="flex flex-col items-center justify-center h-full space-y-6">
-          
-
-        <div className="flex font-della items-center absolute top-3  mr-7">
-          <img
-            src="/logo/mobileLogosvg.svg"
-            alt="logo"
-            className="mix-blend-multiply"
-          />
-          <div className="mt-3 text-[#3b2f18]">
-            <h1 className="text-[20px]">AL MAHEREIN</h1>
-            <p className="text-[12px] relative bottom-2 font-redRose">
-              DUBAI’S FINEST TAILORS
-            </p>
+          <div className="flex font-della items-center absolute top-3  mr-7">
+            <img
+              src="/logo/mobileLogosvg.svg"
+              alt="logo"
+              className="mix-blend-multiply"
+            />
+            <div className="mt-3 text-[#3b2f18]">
+              <h1 className="text-[20px]">AL MAHEREIN</h1>
+              <p className="text-[12px] relative bottom-2 font-redRose">
+                DUBAI’S FINEST TAILORS
+              </p>
+            </div>
           </div>
-        </div>
           <li onClick={toggleMenu}>
-            <a className="text-black text-xl" href="/#">
+            <a className="text-black text-xl" href="/#about">
               ABOUT
             </a>
           </li>
           <li onClick={toggleMenu}>
-            <a className="text-black text-xl" href="/#">
+            <a className="text-black text-xl" href="/#service">
               SERVICES
             </a>
           </li>
@@ -159,12 +169,12 @@ function Home() {
             </a>
           </li>
           <li onClick={toggleMenu}>
-            <a className="text-black text-xl" href="/#">
+            <a className="text-black text-xl" href="/#booknow">
               BOOK NOW
             </a>
           </li>
           <li onClick={toggleMenu}>
-            <a className="text-black text-xl" href="/#">
+            <a className="text-black text-xl" href="/#contact">
               CONTACT
             </a>
           </li>
@@ -176,7 +186,8 @@ function Home() {
           Sewing with Heart,
         </h2>
         <h1 className="text-[30px] sm:text-5xl font-bold font-redRose text-black mt-4">
-          We are <span className="text-nowrap"> AL-MAHEREIN,</span> Bringing Your Style to Life.
+          We are <span className="text-nowrap"> AL-MAHEREIN,</span> Bringing
+          Your Style to Life.
         </h1>
 
         <div className="relative h-full w-full grid my-7">

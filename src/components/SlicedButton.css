@@ -26,6 +26,7 @@
     top: 0;
     fill: none;
     stroke: #fff;
+    stroke-width: 5px;
     stroke-dasharray: 150 480;
     stroke-dashoffset: 150;
     transition: 1s ease-in-out;
