@@ -3,7 +3,7 @@ import Card from "../components/Card";
 
 function Service() {
   return (
-    <section id="service" className="bg-[#FFFBED] h-screen text-center relative  ">
+    <section id="service" className="bg-[#FFFBED] mt-7  text-center relative  ">
       <div className="grid gap-2 pt-[6px] pb-14">
       <h2 className="font-della text-lg">Al-Maherein</h2>
       <h1 className="font-redRose text-4xl font-bold">SERVICES</h1>
@@ -11,7 +11,7 @@ function Service() {
         Take a look at the variety of services we offer for Individuals
       </p>{" "}
       </div>
-      <div className="my-7 flex  justify-around">
+      <div className="py-7 flex  justify-around">
         <Card
           url={"/img/card1.png"}
           heading={`Men's Suits and Trousers`}
