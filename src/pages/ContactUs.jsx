@@ -1,4 +1,6 @@
 import React from "react";
+import CustomMap from "../components/Map";
+
 
 function ContactUs() {
   return (
@@ -39,11 +41,13 @@ function ContactUs() {
       </div>
 
       {/* map and contact us */}
-      <div className="py-5 p-2 bg-gray-100 font-montserrat">
-        *This feature (GMAP -1010#500*) is not available on this free domain
+      <div className="my-3 font-montserrat">
+        {/* *This feature (GMAP -1010#500*) is not available on this free domain
         service. This is only a visual representation and not for production
-        use.
+        use. */}
+
       </div>
+          <CustomMap/>
     </section>
   );
 }
