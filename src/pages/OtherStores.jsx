@@ -13,7 +13,7 @@ function OtherStores() {
 
       <a
         className="bg-[#25D366] text-white inline-flex p-5 gap-1 py-2 sm:text-xl  rounded-md hover:brightness-105 transition-all"
-        href="https://wa.me/97148928296"
+        href="https://wa.me/message/Y757UKRWSQ35D1?src=qr"
       >
         <img className="sm:w-7 sm:h-7" src="/icon/whatsapp.svg" alt="wh"></img>Whatsapp
       </a>
@@ -23,9 +23,9 @@ function OtherStores() {
       <div>
         <img className="mx-auto" src="/icon/location.svg" alt="location" />
         <h1 className="text-[#A47C35] mt-2 mb-3 font-redRose font-bold text-2xl ">
-        DEIRA
+        DUBAI
         </h1>
-        <p className="font-light text-lg">+971 4892 8296</p>
+        <p className="font-light text-lg" > <a href="tel:971 4892-8296">+971 4892 8296</a></p>
       </div>
     </section>
   );

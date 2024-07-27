@@ -69,7 +69,8 @@ function Service() {
         customLeftArrow={<ArrowLeft />}
         customRightArrow={<ArrowRight />}
         custom
-        autoPlaySpeed={3000}
+
+        autoPlaySpeed={7000}
         centerMode={false}
         className=""
         containerClass="container-with-dots"
@@ -87,32 +88,51 @@ function Service() {
         rtl={false}
         shouldResetAutoplay
         showDots={false}
+        autoPlay
         sliderClass=""
         slidesToSlide={1}
         swipeable
       >
         <Card
-          url={"/img/card1.png"}
-          heading={`Men's Suits and Trousers`}
-          detail={` Crafted with precision and tailored to perfection, our men's suits and
-          trousers epitomize sophistication and style, ensuring a flawless fit
-          that exudes confidence`}
-        />
-        <Card
-          url={"/img/card2.png"}
-          heading={`Shirts Alteration`}
-          detail={`From intricate adjustments to comprehensive alterations, our skilled artisans transform ordinary shirts into personalized masterpieces, tailored to the unique preferences of our clientele.`}
-        />
-        <Card
-          url={"/img/card3.png"}
-          heading={`Children's Party Wear`}
-          detail={` Our children's party wear collection features playful and elegant designs, ensuring your little ones look adorable and feel comfortable for any special occasion.`}
-        />
-        <Card
-          url={"/img/card4.png"}
-          heading={`Formal Clothing Alteration`}
-          detail={`Our formal clothing alteration service ensures that every piece fits perfectly, offering meticulous adjustments for a flawless and professional appearance.`}
-        />
+  url={"/img/card1.png"}
+  heading={`Men's Suits and Trousers`}
+  detail={`Crafted with precision and tailored to perfection, our men's suits and trousers epitomize sophistication and style, ensuring a flawless fit that exudes confidence.`}
+/>
+<Card
+  url={"/img/card2.png"}
+  heading={`Shirts Alteration`}
+  detail={`From intricate adjustments to comprehensive alterations, our skilled artisans transform ordinary shirts into personalized masterpieces, tailored to the unique preferences of our clientele.`}
+/>
+<Card
+  url={"/img/card3.png"}
+  heading={`Children's Party Wear`}
+  detail={`Our children's party wear collection features playful and elegant designs, ensuring your little ones look adorable and feel comfortable for any special occasion.`}
+/>
+<Card
+  url={"/img/card4.png"}
+  heading={`Formal Clothing Alteration`}
+  detail={`Our formal clothing alteration service ensures that every piece fits perfectly, offering meticulous adjustments for a flawless and professional appearance.`}
+/>
+<Card
+  url={"/img/card5.png"}
+  heading={`Suits`}
+  detail={`Our suits collection combines classic and contemporary styles to provide versatile options for every occasion, crafted from the finest materials to ensure an impeccable fit and finish.`}
+/>
+<Card
+  url={"/img/card6.png"}
+  heading={`Wedding Dresses`}
+  detail={`Discover our exquisite collection of wedding dresses, featuring timeless elegance and modern designs. Each dress is meticulously crafted to make your special day unforgettable.`}
+/>
+<Card
+  url={"/img/card7.png"}
+  heading={`Wedding Suits`}
+  detail={`Our wedding suits are designed to complement the bride's attire perfectly. With a focus on detail and quality, we ensure that the groom looks his best on the big day.`}
+/>
+<Card
+  url={"/img/card8.png"}
+  heading={`Ladies Wear`}
+  detail={`Our ladies wear collection offers a range of stylish and elegant outfits for various occasions. From casual chic to sophisticated evening wear, we cater to every fashion need.`}
+/>
       </Carousel>
     </section>
   );

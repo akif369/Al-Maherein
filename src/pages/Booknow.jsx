@@ -42,7 +42,7 @@ function Booknow() {
         </div>{" "}
         <div className="my-auto md:mx-auto flex gap-7 max-md:py-4 max-md:pb-7">
           <a
-            href="/#"
+             href="https://wa.me/message/Y757UKRWSQ35D1?src=qr"
             className="max-sm:text-[13px] font-medium sm:text-nowrap my-auto max-sm:text-center p-6 py-[10px] bg-[#F6D093] rounded-lg border-[#FFBF78] border hover:brightness-105 transition-all"
           >
             Book Now

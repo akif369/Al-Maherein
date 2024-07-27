@@ -1,7 +1,6 @@
 import React from "react";
 import CustomMap from "../components/Map";
 
-
 function ContactUs() {
   return (
     <section id="contact">
@@ -15,7 +14,13 @@ function ContactUs() {
 
         <div className="text-left flex justify-between mx-7 my-11 font-medium flex-wrap gap-y-10 ">
           <div className="flex gap-[10px] ">
-            <img  className="mb-auto"src="/icon/email.svg"  width={60} height={60}alt="email" />
+            <img
+              className="mb-auto"
+              src="/icon/email.svg"
+              width={60}
+              height={60}
+              alt="email"
+            />
             <div>
               <h1 className="text-[22px]">Email</h1>
               <p className="text-sm text-gray-800">almahereinmtllc@gmail.com</p>
@@ -23,18 +28,34 @@ function ContactUs() {
           </div>
 
           <div className="flex gap-[10px]">
-            <img  className="mb-auto" src="/icon/phone.svg" width={60} height={60} alt="phone" />
+            <img
+              className="mb-auto"
+              src="/icon/phone.svg"
+              width={60}
+              height={60}
+              alt="phone"
+            />
             <div>
               <h1 className="text-[22px]">Phone</h1>
               <p className="text-sm text-gray-800">+971 4 892 8296</p>
             </div>
           </div>
 
-          <div  className="flex gap-[10px] self-start">
-            <img className="mb-auto" src="/icon/address.svg"  width={60} height={60} alt="Address" />
+          <div className="flex gap-[10px] self-start">
+            <img
+              className="mb-auto"
+              src="/icon/address.svg"
+              width={60}
+              height={60}
+              alt="Address"
+            />
             <div>
               <h1 className="text-[22px]">Address</h1>
-              <p className="text-sm text-gray-800 sm:max-w-36">Al Ittihad Rd,<span className="text-nowrap"> 36 28th ST</span>, Deira, Dubai (UAE)</p>
+              <p className="text-sm text-gray-800 sm:max-w-40">
+                {/* Al Ittihad Rd,<span className="text-nowrap"> 36 28th ST</span>,
+                Deira, Dubai (UAE) */}
+                 M Floor, Mamzar Center,Near Al Qiyadah Metro Station,Dubai (UAE)
+              </p>
             </div>
           </div>
         </div>
@@ -45,9 +66,8 @@ function ContactUs() {
         {/* *This feature (GMAP -1010#500*) is not available on this free domain
         service. This is only a visual representation and not for production
         use. */}
-
       </div>
-          <CustomMap/>
+      <CustomMap />
     </section>
   );
 }
