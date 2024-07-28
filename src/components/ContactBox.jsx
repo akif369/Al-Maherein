@@ -74,11 +74,11 @@ function ContactCard() {
   };
 
   return (
-    <form
+    <form id="form" 
       className="flex flex-col absolute top-16 max-sm:right-0 max-sm:left-0 mx-auto right-16 md:right-8 lg:right-16 2xl:right-32 items-start px-2 py-7 md:px-8 md:py-14  text-base bg-white rounded-2xl shadow-lg  text-black text-opacity-40 max-md:px-5 md:top-8 lg:top-16 2xl:top-32 max-sm:w-11/12 max-sm:top-48 max-md:w-5/6 max-md:top-48"
       onSubmit={handleSubmit}
     >
-      <div id="form" className="self-center text-3xl font-semibold text-amber-200">
+      <div className="self-center text-3xl font-semibold text-amber-200">
         Get Touch With Us
       </div>
       {error && (

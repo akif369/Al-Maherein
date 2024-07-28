@@ -17,14 +17,14 @@ function Client() {
         />
         <ClientCard
           isBlack
-          customerName={"John"}
-          type={"Valued Customer"}
-          review={`User reviews like the one above praise The Smart Tailor's unparalleled craftsmanship and perfection. They really put effort into my pieces and made sure I was 100% satisfied with the alterations. Highly recommend! `}
+          customerName={"Sarah"}
+          type={"Regular Customer"}
+          review={`Every visit to The Smart Tailor is a pleasure. The staff are friendly, and they always deliver on time. Their craftsmanship is unparalleled. Five stars!`}
         />
         <ClientCard
-          customerName={"John"}
-          type={"Valued Customer"}
-          review={`User reviews like the one above praise The Smart Tailor's unparalleled craftsmanship and perfection. They really put effort into my pieces and made sure I was 100% satisfied with the alterations. Highly recommend! `}
+          customerName={"Sophia"}
+          type={"Loyal Customer"}
+          review={`I've been coming to The Smart Tailor for all my suits. They never disappoint. The fit is always perfect and the quality is top-notch. Highly recommend them for any tailoring needs.`}
         />
       </div>
     </section>
