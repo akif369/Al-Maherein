@@ -37,11 +37,11 @@ function Home() {
         <h1 className="font-bold text-[#584624] font-della text-2xl max-lg:hidden">
           AL MAHEREIN DUBAI’S FINEST TAILORS
         </h1>
-        <div className="max-sm:hidden lg:hidden ">
+        <div className="max-sm:hidden lg:hidden h-[100px] w-[100px] ">
           <img
-            src="/logo/almeh.svg"
+            src="/logo/newLogo.svg"
             alt="al-meh"
-            style={{ mixBlendMode: "multiply" }}
+            // style={{ mixBlendMode: "multiply" }}
             width={100}
             height={100}
           />
@@ -57,10 +57,10 @@ function Home() {
           </li>
           <li className="w-[120px] h-[90px] max-lg:hidden">
             <img
-              src="/logo/almeh.svg"
+              src="/logo/newLogo.svg"
               alt="al-meh"
-              style={{ mixBlendMode: "multiply" }}
-              width={100}
+              // style={{ mixBlendMode: "multiply" }}
+              width={120}
               height={100}
             />
           </li>
@@ -100,16 +100,17 @@ function Home() {
       <nav className="sm:hidden flex justify-between  items-center p-4">
         <div className="flex font-della items-center">
           <img
-            src="/logo/mobileLogosvg.svg"
+            src="/logo/newLogo.svg"
+            width={100}
             alt="logo"
-            className="mix-blend-multiply"
+            // className="mix-blend-multiply"
           />
-          <div className="mt-3 text-[#3b2f18]">
+          {/* <div className="mt-3 text-[#3b2f18]">
             <h1 className="text-[17px]">AL MAHEREIN</h1>
             <p className="text-[10px] relative bottom-2 font-redRose">
               DUBAI’S FINEST TAILORS
             </p>
-          </div>
+          </div> */}
         </div>
         <div className="flex">
           <a
