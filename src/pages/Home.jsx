@@ -73,7 +73,7 @@ function Home() {
             </a>
           </li>
           <li>
-            <a className="text-black transition-all duration-150" href="/#">
+            <a className="text-black transition-all duration-150" target="_blank" href="https://tapdeal.link/@almahere">
               PORTFOLIO
             </a>
           </li>
@@ -165,7 +165,7 @@ function Home() {
             </a>
           </li>
           <li onClick={toggleMenu}>
-            <a className="text-black text-xl" href="/#">
+            <a className="text-black text-xl" target="_blank" href="https://tapdeal.link/@almahere">
               PORTFOLIO
             </a>
           </li>
